@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--=============== FAVICON ===============-->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
 
     <!--=============== REMIX ICONS ===============-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-    <title>Mini portfolio website</title>
+    <title>Portfolio website</title>
 </head>
 
 <body>
@@ -23,10 +23,10 @@
         <!-- Theme button -->
         <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
         <div class="change-theme">
-            <input type="checkbox" class="checkbox" id="checkbox">
-            <label for="checkbox" class="label"  >
+            <input type="checkbox" class="checkbox" id="checkbox" />
+            <label for="checkbox" class="label">
                 <i class="ri-moon-line"></i>
-                <i class="ri-sun-line" ></i>
+                <i class="ri-sun-line"></i>
                 <div class="ball"></div>
             </label>
         </div>
@@ -39,16 +39,16 @@
                             <img src="assets/img/cv_image.jpg" alt="">
                         </div> -->
                     <div class="circular--landscape">
-                        <img  src="./assets/img/cv_image.jpg" alt="profile-image">
+                        <img src="./assets/img/cv_image.jpg" alt="profile-image" />
                     </div>
                 </div>
 
-
                 <h2 class="profile__name">Ahmadagha Aghayev</h2>
-                <h3 class="profile__profession">Web developer</h3>
+                <h3 class="profile__profession">Frontend developer</h3>
+                <!-- <h3 class="profile__profession">Web developer</h3> -->
 
                 <ul class="profile__social">
-                    <a href="mailto:ehmed.agayev63@gmail.com" target="_blank" class="profile__social-link">
+                    <a href="mailto:aghayevahmadagha@gmail.com" target="_blank" class="profile__social-link">
                         <i class="ri-mail-line"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/ahmadagha-aghayev/" target="_blank"
@@ -109,17 +109,14 @@
                 <button class="filters__button filter-tab-active" data-target="#projects">
                     Projects
                 </button>
-                <button class="filters__button" data-target="#skills">
-                    Skills
-                </button>
+                <button class="filters__button" data-target="#skills">Skills</button>
             </ul>
 
             <div class="filters__sections">
                 <!--=============== PROJECTS ===============-->
                 <div class="projects__content grid filters__active" data-content id="projects">
                     <article class="projects__card">
-                       
-                        <img src="assets/img/project1.jpg" alt="" class="projects__img">
+                        <img src="assets/img/project1.jpg" alt="" class="projects__img" />
 
                         <div class="projects__modal">
                             <div>
@@ -132,15 +129,29 @@
                             </div>
                         </div>
                     </article>
-
                     <article class="projects__card">
-                        <img src="assets/img/project5.jpg" alt="" class="projects__img">
+                        <img src="assets/img/project5.jpg" alt="" class="projects__img" />
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">ERP</span>
+                                <h3 class="projects__title">Dashboard</h3>
+                                <a href="https://ahmadagayev.github.io/react-syncfusion-dashboard/"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="projects__card">
+                        <img src="assets/img/project4.jpg" alt="" class="projects__img" />
 
                         <div class="projects__modal">
                             <div>
                                 <span class="projects__subtitle">Web</span>
                                 <h3 class="projects__title">CryptoHunter</h3>
-                                <a href="https://ahmadagayev.github.io/cryptohunter/" class="projects__button button button__small">
+                                <a href="https://ahmadagayev.github.io/cryptohunter/"
+                                    class="projects__button button button__small">
                                     <i class="ri-link"></i>
                                 </a>
                             </div>
@@ -148,13 +159,14 @@
                     </article>
 
                     <article class="projects__card">
-                        <img src="assets/img/project2.jpg" alt="" class="projects__img">
+                        <img src="assets/img/project2.jpg" alt="" class="projects__img" />
 
                         <div class="projects__modal">
                             <div>
                                 <span class="projects__subtitle">Web</span>
                                 <h3 class="projects__title">Portfolio website</h3>
-                                <a href="https://portfolio-aghayev-ahmadagha.netlify.app/" class="projects__button button button__small">
+                                <a href="https://portfolio-aghayev-ahmadagha.netlify.app/"
+                                    class="projects__button button button__small">
                                     <i class="ri-link"></i>
                                 </a>
                             </div>
@@ -162,13 +174,14 @@
                     </article>
 
                     <article class="projects__card">
-                        <img src="assets/img/project3.jpg" alt="" class="projects__img">
+                        <img src="assets/img/project3.jpg" alt="" class="projects__img" />
 
                         <div class="projects__modal">
                             <div>
                                 <span class="projects__subtitle">Ecommerce</span>
                                 <h3 class="projects__title">eShop</h3>
-                                <a href="https://ahmadagayev.github.io/eshop/" class="projects__button button button__small">
+                                <a href="https://ahmadagayev.github.io/eshop/"
+                                    class="projects__button button button__small">
                                     <i class="ri-link"></i>
                                 </a>
                             </div>
@@ -176,26 +189,25 @@
                     </article>
 
                     <article class="projects__card">
-                        <img src="assets/img/project4.jpg" alt="" class="projects__img">
+                        <img src="assets/img/project1.jpg" alt="" class="projects__img" />
 
                         <div class="projects__modal">
                             <div>
                                 <span class="projects__subtitle">Web</span>
                                 <h3 class="projects__title">MovieLand</h3>
-                                <a href="https://ahmadagayev.github.io/movieland/" class="projects__button button button__small">
+                                <a href="https://ahmadagayev.github.io/movieland/"
+                                    class="projects__button button button__small">
                                     <i class="ri-link"></i>
                                 </a>
                             </div>
                         </div>
                     </article>
-
-                    
                 </div>
 
                 <!--=============== SKILLS ===============-->
                 <div class="skills__content grid" data-content id="skills">
                     <div class="skills__area">
-                        <h3 class="skills__title">Frontend Developer</h3>
+                        <!-- <h3 class="skills__title">Frontend Developer</h3> -->
 
                         <div class="skills__box">
                             <div class="skills__group">
@@ -204,7 +216,7 @@
 
                                     <div>
                                         <h3 class="skills__name">HTML</h3>
-                                        <span class="skills__level">Intermediate</span>
+                                        <!-- <span class="skills__level">Intermediate</span> -->
                                     </div>
                                 </div>
 
@@ -213,7 +225,7 @@
 
                                     <div>
                                         <h3 class="skills__name">CSS</h3>
-                                        <span class="skills__level">Intermediate</span>
+                                        <!-- <span class="skills__level">Intermediate</span> -->
                                     </div>
                                 </div>
 
@@ -222,7 +234,7 @@
 
                                     <div>
                                         <h3 class="skills__name">JavaScript</h3>
-                                        <span class="skills__level">Intermediate</span>
+                                        <!-- <span class="skills__level">Intermediate</span> -->
                                     </div>
                                 </div>
 
@@ -231,7 +243,7 @@
 
                                     <div>
                                         <h3 class="skills__name">Jquery</h3>
-                                        <span class="skills__level">Intermediate</span>
+                                        <!-- <span class="skills__level">Intermediate</span> -->
                                     </div>
                                 </div>
 
@@ -240,10 +252,9 @@
 
                                     <div>
                                         <h3 class="skills__name">Rest API</h3>
-                                        <span class="skills__level">Intermediate</span>
+                                        <!-- <span class="skills__level">Intermediate</span> -->
                                     </div>
                                 </div>
-
                             </div>
 
                             <div class="skills__group">
@@ -252,7 +263,7 @@
 
                                     <div>
                                         <h3 class="skills__name">React</h3>
-                                        <span class="skills__level">Intermediate</span>
+                                        <!-- <span class="skills__level">Intermediate</span> -->
                                     </div>
                                 </div>
 
@@ -261,7 +272,7 @@
 
                                     <div>
                                         <h3 class="skills__name">Bootstrap</h3>
-                                        <span class="skills__level">Intermediate</span>
+                                        <!-- <span class="skills__level">Intermediate</span> -->
                                     </div>
                                 </div>
 
@@ -270,7 +281,7 @@
 
                                     <div>
                                         <h3 class="skills__name">Git</h3>
-                                        <span class="skills__level">Intermediate</span>
+                                        <!-- <span class="skills__level">Intermediate</span> -->
                                     </div>
                                 </div>
 
@@ -279,7 +290,7 @@
 
                                     <div>
                                         <h3 class="skills__name">Material UI</h3>
-                                        <span class="skills__level">Intermediate</span>
+                                        <!-- <span class="skills__level">Intermediate</span> -->
                                     </div>
                                 </div>
 
@@ -288,69 +299,113 @@
 
                                     <div>
                                         <h3 class="skills__name">Ant Design</h3>
-                                        <span class="skills__level">Intermediate</span>
+                                        <!-- <span class="skills__level">Intermediate</span> -->
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="skills__area">
-                        <h3 class="skills__title">Backend Developer</h3>
-
-                        <div class="skills__box">
                             <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Redux Toolkit</h3>
+                                        <!-- <span class="skills__level">Intermediate</span> -->
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">TypeScript</h3>
+                                        <!-- <span class="skills__level">Intermediate</span> -->
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Docker</h3>
+                                        <!-- <span class="skills__level">Intermediate</span> -->
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">WebSocket</h3>
+                                        <!-- <span class="skills__level">Intermediate</span> -->
+                                    </div>
+                                </div>
+
                                 <div class="skills__data">
                                     <i class="ri-checkbox-circle-line"></i>
 
                                     <div>
                                         <h3 class="skills__name">Firebase</h3>
-                                        <span class="skills__level">Intermediate</span>
-                                    </div>
-                                </div>
-                                
-                                <div class="skills__data">
-                                    <i class="ri-checkbox-circle-line"></i>
-
-                                    <div>
-                                        <h3 class="skills__name">MongoDB</h3>
-                                        <span class="skills__level">Beginner</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class="ri-checkbox-circle-line"></i>
-
-                                    <div>
-                                        <h3 class="skills__name">MySQL</h3>
-                                        <span class="skills__level">Beginner</span>
-                                    </div>
-                                </div>
-
-                                
-                            </div>
-
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                    <i class="ri-checkbox-circle-line"></i>
-
-                                    <div>
-                                        <h3 class="skills__name">Python</h3>
-                                        <span class="skills__level">Beginner</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class="ri-checkbox-circle-line"></i>
-
-                                    <div>
-                                        <h3 class="skills__name">Node Js</h3>
-                                        <span class="skills__level">Beginner</span>
+                                        <!-- <span class="skills__level">Intermediate</span> -->
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <!-- <div class="skills__area">
+              <h3 class="skills__title">Backend Developer</h3>
+
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Firebase</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">MongoDB</h3>
+                      <span class="skills__level">Beginner</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">MySQL</h3>
+                      <span class="skills__level">Beginner</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Python</h3>
+                      <span class="skills__level">Beginner</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Node Js</h3>
+                      <span class="skills__level">Beginner</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
                 </div>
             </div>
         </section>
